@@ -256,7 +256,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &61566209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +347,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &142493120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,7 +438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &170294544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,7 +529,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &221220474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,7 +620,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &232944924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -701,7 +711,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &301870305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,7 +802,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &314639838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,7 +893,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &340019881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -968,7 +984,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &363051677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1057,7 +1075,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &412657488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,7 +1166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &421395041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1235,7 +1257,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &424917741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,7 +1348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &448014001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1445,7 +1471,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 457835796}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1065028193}
+        m_TargetAssemblyTypeName: UI_BattleGroundBG, Assembly-CSharp
+        m_MethodName: Player1MakeDice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &457835796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1600,7 +1638,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &517307045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1689,7 +1729,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &532261379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1778,7 +1820,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &599925436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1942,7 +1986,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &773519301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2031,7 +2077,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &897532093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2164,6 +2212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c231b46c06d00b24ca1d4eea416816ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SlotWrapper: {fileID: 0}
 --- !u!222 &977376947
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2298,7 +2347,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1000954563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2387,7 +2438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1018617729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2673,7 +2726,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1190610684}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1065028193}
+        m_TargetAssemblyTypeName: UI_BattleGroundBG, Assembly-CSharp
+        m_MethodName: Player2MakeDice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1190610684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2841,7 +2906,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1360264911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3006,7 +3073,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1431000493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3095,7 +3164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1444751983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3184,7 +3255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1511010731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3273,7 +3346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1551802502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3362,7 +3437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1755783856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3451,7 +3528,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1793058042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3540,7 +3619,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1819794632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3709,6 +3790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c231b46c06d00b24ca1d4eea416816ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SlotWrapper: {fileID: 0}
 --- !u!222 &1834112875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3767,7 +3849,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &1868199758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4008,7 +4092,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eb5df66bb7f264e903012d90a956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFull: 0
+  _isFull: 0
+  _diceTemplateID: 0
+  _diceTexture: {fileID: 0}
 --- !u!114 &2039988917
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,7 +5,8 @@ using UnityEngine;
 public class UI_BattleGroundBG : MonoBehaviour
 {
 
-    UI_Slot[] slots;
+    UI_Slot[] Player1Slots;
+    UI_Slot[] Player2Slots;
     const int MAX_DICE = 15;
     int current_dice;
 
@@ -13,10 +14,11 @@ public class UI_BattleGroundBG : MonoBehaviour
     void Start()
     {
         current_dice = 0;
-        slots = transform.GetComponentsInChildren<UI_Slot>();
+        Player1Slots = transform.GetComponentsInChildren<UI_Slot>();
+        Player2Slots = transform.GetComponentsInChildren<UI_Slot>();
     }
 
-    // Update is called once per frame
+        // Update is called once per frame
     void Update()
     {
 
@@ -32,7 +34,9 @@ public class UI_BattleGroundBG : MonoBehaviour
             dice = Random.Range(0, 4);
             x = Random.Range(0, 4);
             y = Random.Range(0, 2);
-        } while (!slots[x + y].SetDiceInThisSlot(dice));
+        } while (!Player1Slots[x + y].AddDiceInThisSlot(dice));
+        current_dice++;
+
     }
 
     public void Player2MakeDice()
@@ -45,6 +49,7 @@ public class UI_BattleGroundBG : MonoBehaviour
             dice = Random.Range(0, 4);
             x = Random.Range(0, 4);
             y = Random.Range(0, 2);
-        } while (!slots[x + y].SetDiceInThisSlot(dice));
+        } while (!Player2Slots[x + y].AddDiceInThisSlot(dice));
+        current_dice++;
     }
 }
