@@ -20,6 +20,7 @@ public class GamePlayerManager
     {
         player_list.Add(1000 ,new GamePlayer(1000));  //Player1
         player_list.Add(1001 ,new GamePlayer(1001));  //Player2
+        MakeDefualtDice();
     }
 
     //처음 만들어지는 다이스.

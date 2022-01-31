@@ -30,13 +30,20 @@ public class ManagerContainer : MonoBehaviour
             s_Instance = go.GetComponent<ManagerContainer>();
             DontDestroyOnLoad(go);
 
+            //√ ±‚»≠
             s_Instance._data.Init();
+            s_Instance._players.Init();
         }        
+    }
+
+    void Awake()
+    {
+        
     }
 
     void Start()
     {
-        
+        init();
     }
 
     // Update is called once per frame

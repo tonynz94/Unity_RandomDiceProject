@@ -6,7 +6,7 @@
       "diceEye": "1",
       "diceClass": "1.1",
       "diceLevel": "1",
-      "attact": "20",
+      "attack": "20",
       "attackSpeed": "0.8"
     },
     {
@@ -15,7 +15,7 @@
       "diceEye": "1",
       "diceClass": "1",
       "diceLevel": "1",
-      "attact": "20",
+      "attack": "20",
       "attackSpeed": "0.7"
     },
     {
@@ -24,7 +24,7 @@
       "diceEye": "1",
       "diceClass": "1",
       "diceLevel": "1",
-      "attact": "26",
+      "attack": "26",
       "attackSpeed": "0.45"
     },
     {
@@ -33,7 +33,7 @@
       "diceEye": "1",
       "diceClass": "1",
       "diceLevel": "1",
-      "attact": "20",
+      "attack": "20",
       "attackSpeed": "0.7"
     },
     {
@@ -42,7 +42,7 @@
       "diceEye": "1",
       "diceClass": "1",
       "diceLevel": "1",
-      "attact": "20",
+      "attack": "20",
       "attackSpeed": "0.7"
     },
     {
@@ -51,7 +51,7 @@
       "diceEye": "1",
       "diceClass": "1",
       "diceLevel": "1",
-      "attact": "20",
+      "attack": "20",
       "attackSpeed": "0.7"
     },
     {
@@ -60,7 +60,7 @@
       "diceEye": "1",
       "diceClass": "1",
       "diceLevel": "1",
-      "attact": "20",
+      "attack": "20",
       "attackSpeed": "0.7"
     },
     {
@@ -69,7 +69,7 @@
       "diceEye": "1",
       "diceClass": "1",
       "diceLevel": "1",
-      "attact": "40",
+      "attack": "40",
       "attackSpeed": "3.4"
     }
   ]

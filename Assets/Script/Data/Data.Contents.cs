@@ -14,7 +14,7 @@ namespace Data
         public int diceEye;
         public int diceClass;
         public int diceLevel;
-        public int attack;
+        public int attact;
         public float attackSpeed;
         public Texture diceTexture;
         public System.Action target;

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GamePlayer
+public class GamePlayer : MonoBehaviour
 {
-    int _CGUID;
-    int _life;
-    List<int> _myAllDice;
-    LinkedList<int> _myDeck;
+    public int _CGUID;
+    public int _life;
+    public List<int> _myAllDice = new List<int>();
+    public LinkedList<int> _myDeck = new LinkedList<int>();
 
     public GamePlayer(int CGUID)
     {

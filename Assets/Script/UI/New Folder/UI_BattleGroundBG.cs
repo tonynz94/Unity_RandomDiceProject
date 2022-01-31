@@ -29,12 +29,12 @@ public class UI_BattleGroundBG : MonoBehaviour
         int dice, x, y;
         do
         {
-            if (current_dice < MAX_DICE)
+            if (current_dice >= MAX_DICE)
                 return;
             dice = Random.Range(0, 4);
             x = Random.Range(0, 4);
             y = Random.Range(0, 2);
-        } while (!Player1Slots[x + y].AddDiceInThisSlot(dice));
+        } while (!Player1Slots[x + y].AddDiceInThisSlot(ManagerContainer.Players.PlayerList[1000]._myAllDice[dice]));
         current_dice++;
 
     }
@@ -44,12 +44,12 @@ public class UI_BattleGroundBG : MonoBehaviour
         int dice, x, y;
         do
         {
-            if (current_dice < MAX_DICE)
+            if (current_dice >= MAX_DICE)
                 return;
             dice = Random.Range(0, 4);
             x = Random.Range(0, 4);
             y = Random.Range(0, 2);
-        } while (!Player2Slots[x + y].AddDiceInThisSlot(dice));
+        } while (!Player1Slots[x + y].AddDiceInThisSlot(ManagerContainer.Players.PlayerList[1001]._myAllDice[dice]));
         current_dice++;
     }
 }

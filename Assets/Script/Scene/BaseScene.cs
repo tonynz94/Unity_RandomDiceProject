@@ -10,6 +10,7 @@ public abstract class BaseScene : MonoBehaviour
     void Awake()
     {
         Init();
+        ManagerContainer.init();
     }
 
     protected virtual void Init()
