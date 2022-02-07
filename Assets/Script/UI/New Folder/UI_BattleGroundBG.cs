@@ -26,30 +26,30 @@ public class UI_BattleGroundBG : MonoBehaviour
 
     public void Player1MakeDice()
     {
-        int dice, x, y;
+        int diceIndex, x, y;
         do
         {
             if (current_dice >= MAX_DICE)
                 return;
-            dice = Random.Range(0, 4);
-            x = Random.Range(0, 4); //0 1 2 3
+            diceIndex = Random.Range(0, ManagerContainer.Players.PlayerList[1000]._myAllDice.Count);
+            x = Random.Range(0, 5); //0 1 2 3 4
             y = Random.Range(0, 3); //0 1 2
-        } while (!Player1Slots[(y*4) + x].AddDiceInThisSlot(ManagerContainer.Players.PlayerList[1000]._myAllDice[dice]));
+        } while (!Player1Slots[(y * 5) + x].AddDiceInThisSlot(diceIndex, 1000));
         current_dice++;
 
     }
 
     public void Player2MakeDice()
     {
-        int dice, x, y;
+        int diceIndex, x, y;
         do
         {
             if (current_dice >= MAX_DICE)
                 return;
-            dice = Random.Range(0, 4);
-            x = Random.Range(0, 4);
+            diceIndex = Random.Range(0, 4);
+            x = Random.Range(0, 5);
             y = Random.Range(0, 2);
-        } while (!Player1Slots[(y*4) + x].AddDiceInThisSlot(ManagerContainer.Players.PlayerList[1001]._myAllDice[dice]));
+        } while (!Player1Slots[(y * 5) + x].AddDiceInThisSlot(diceIndex, 1001)) ;
         current_dice++;
     }
 }

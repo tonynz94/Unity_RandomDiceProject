@@ -2,27 +2,32 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 #region Stat
 [Serializable]
-public class Stat
+public class DiceStat
 {
-    public int level;
-    public int hp;
+    public int diceTemplateID;
     public int attack;
+    public float attackSpeed;
+
+    public Sprite diceImage;
 }
 
 [Serializable]
-public class DiceStatData : ILoader<int, Stat>
+public class DiceStatData : ILoader<int, DiceStat>
 {
-    public List<Stat> diceStats = new List<Stat>();
+    public List<DiceStat> diceStats = new List<DiceStat>();
 
-    public Dictionary<int, Stat> MakeDict()
+    public Dictionary<int, DiceStat> MakeDict()
     {
-        Dictionary<int, Stat> dict = new Dictionary<int, Stat>();
-        foreach (Stat stat in diceStats)
+        Dictionary<int, DiceStat> dict = new Dictionary<int, DiceStat>();
+
+        foreach (DiceStat stat in diceStats)
         {
-            dict.Add(stat.level, stat);
+            stat.diceImage = Resources.Load<Sprite>($"Textures/Dice/{stat.diceTemplateID}");
+            dict.Add(stat.diceTemplateID, stat);
         }
 
         return dict;

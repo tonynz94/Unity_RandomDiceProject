@@ -1,19 +1,94 @@
 {
   "diceStats": [
     {
-      "level": "1",
-      "hp": "100",
-      "attack": "10"
+      "diceTemplateID": "1",
+      "attack": "100",
+      "attackSpeed": "0.5f"
     },
     {
-      "level": "2",
-      "hp": "300",
-      "attack": "30"
+      "diceTemplateID": "2",
+      "attack": "200",
+      "attackSpeed": "2"
     },
     {
-      "level": "3",
-      "hp": "500",
-      "attack": "50"
+      "diceTemplateID": "3",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "4",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "5",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "6",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "7",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "8",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "9",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "10",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "11",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "12",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "13",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "14",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "15",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "16",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "17",
+      "attack": "300",
+      "attackSpeed": "3"
+    },
+    {
+      "diceTemplateID": "18",
+      "attack": "300",
+      "attackSpeed": "3"
     }
   ]
 }

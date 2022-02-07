@@ -26,16 +26,16 @@ public class GamePlayerManager
     //처음 만들어지는 다이스.
     public void MakeDefualtDice()
     {
-        PlayerList[1000].AddDice(10000);
-        PlayerList[1000].AddDice(11000);
-        PlayerList[1000].AddDice(12000);
-        PlayerList[1000].AddDice(13000);
-        PlayerList[1000].AddDice(14000);
+        PlayerList[1000].AddDice(1);
+        PlayerList[1000].AddDice(2);
+        PlayerList[1000].AddDice(3);
+        PlayerList[1000].AddDice(4);
+        PlayerList[1000].AddDice(5);
 
-        PlayerList[1001].AddDice(10000);
-        PlayerList[1001].AddDice(11000);
-        PlayerList[1001].AddDice(12000);
-        PlayerList[1001].AddDice(13000);
-        PlayerList[1001].AddDice(14000);
+        PlayerList[1001].AddDice(1);
+        PlayerList[1001].AddDice(2);
+        PlayerList[1001].AddDice(3);
+        PlayerList[1001].AddDice(4);
+        PlayerList[1001].AddDice(5);
     }
 }
