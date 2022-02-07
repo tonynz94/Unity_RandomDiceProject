@@ -9,18 +9,16 @@ public interface ILoader<Key, Value>
 
 public class DataManager
 {
-    public Dictionary<int, Data.DiceStat> diceDict { get; private set; } = new Dictionary<int, Data.DiceStat>();
+    public Dictionary<int, Stat> DiceStatDict { get; private set; } = new Dictionary<int, Stat>();
 
     public void Init()
     {
-        diceDict = LoadJson<Data.DiceStatData, int, Data.DiceStat>("DiceData").MakeDict();
+        DiceStatDict = LoadJson<DiceStatData, int, Stat>("DiceStatData").MakeDict();
     }
 
     Loader LoadJson<Loader, Key, Value>(string path) where Loader : ILoader<Key, Value>
     {
-        //Json의 파일을 로드해 줌. 
         TextAsset textAsset = ManagerContainer.Resource.Load<TextAsset>($"Data/{path}");
-        //json에 있는 값을 클래스의 멤버변수에 이름에 맞춰 값을 초기화 함.
-        return JsonUtility.FromJson<Loader>(textAsset.text);   
+        return JsonUtility.FromJson<Loader>(textAsset.text);
     }
 }

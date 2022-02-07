@@ -30,10 +30,6 @@ public class UI_LobbyUI : UI_Base
     {
         Click_BattleTab();
     }
-    void Start()
-    {
-       
-    }
 
     public void Click_InventoryTab()
     {
@@ -60,6 +56,6 @@ public class UI_LobbyUI : UI_Base
 
     public override void Init()
     {
-        throw new System.NotImplementedException();
+
     }
 }

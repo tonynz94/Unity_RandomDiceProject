@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GamePlayer : MonoBehaviour
+public class GamePlayer
 {
     public int _CGUID;
     public int _life;

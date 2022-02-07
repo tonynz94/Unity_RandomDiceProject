@@ -3,43 +3,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Data
+#region Stat
+[Serializable]
+public class Stat
 {
-    #region DiceStat
-
-    public class DiceStat
-    {
-        public int diceTempelateID;
-        public string name;
-        public int diceEye;
-        public int diceClass;
-        public int diceLevel;
-        public int attact;
-        public float attackSpeed;
-        public Texture diceTexture;
-        public System.Action target;
-        public System.Action diceSkill;
-        public System.Action state;
-    }
-
-    [Serializable]
-    public class DiceStatData : ILoader<int, DiceStat>
-    {
-        public List<DiceStat> diceStats = new List<DiceStat>();
-        public Dictionary<int, DiceStat> MakeDict()
-        {
-            int diceNumber = 1;
-            Texture[] diceTexture = Resources.LoadAll<Texture>("/Textures/Dice");
-            Dictionary<int, DiceStat> dict = new Dictionary<int, DiceStat>();
-            foreach (DiceStat stat in diceStats)
-            {
-                stat.diceTexture.name = $"{diceNumber}";
-                dict.Add(stat.diceTempelateID, stat);
-                diceNumber++;
-            }
-            return dict;
-        }
-    }
-    #endregion
+    public int level;
+    public int hp;
+    public int attack;
 }
 
+[Serializable]
+public class DiceStatData : ILoader<int, Stat>
+{
+    public List<Stat> diceStats = new List<Stat>();
+
+    public Dictionary<int, Stat> MakeDict()
+    {
+        Dictionary<int, Stat> dict = new Dictionary<int, Stat>();
+        foreach (Stat stat in diceStats)
+        {
+            dict.Add(stat.level, stat);
+        }
+
+        return dict;
+    }
+}
+#endregion

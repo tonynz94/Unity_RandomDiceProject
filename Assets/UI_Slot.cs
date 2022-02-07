@@ -27,7 +27,7 @@ public class UI_Slot : MonoBehaviour
 
         _isFull = true;
         _diceTemplateID = diceNum;
-        _diceTexture = ManagerContainer.Data.diceDict[diceNum].diceTexture;
+        //_diceTexture = ManagerContainer.Data.diceDict[diceNum].diceTexture;
 
         return true;
     }
